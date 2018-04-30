@@ -1,29 +1,29 @@
 {
-  "name": "boomi-user-roles",
-  "version": "0.1.0-alpha",
-  "description": "Custom user roles and permissions for Boomi.",
+  "name": "gulp-standards",
+  "version": "1.0.0",
+  "description": "Gulp Standards.",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Boomi User Roles\" && exit 1"
+    "test": "echo \"Gulp Standards\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/boomiweb/boomi-user-roles.git"
+    "url": "git+https://github.com/erikdmitchell/gulp-standards.git"
   },
   "keywords": [],
   "author": "Erik Mitchell",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://bitbucket.org/boomiweb/boomi-user-roles/issues"
+    "url": "https://github.com/erikdmitchell/gulp-standards/issues"
   },
-  "homepage": "https://bitbucket.org/boomiweb/boomi-user-roles#readme",
+  "homepage": "https://github.com/erikdmitchell/gulp-standards#readme",
   "devDependencies": {
     "gulp": "^3.9.1",      
     "gulp-autoprefixer": "^5.0.0", 
     "gulp-cache": "^1.0.2",
     "gulp-concat": "^2.6.1", 
-    "gulp-filter": "",
-    "gulp-ignore": "",
+    "gulp-filter": "^5.1.0",
+    "gulp-ignore": "^2.0.2",
     "gulp-imagemin": "",
     "gulp-jshint": "^2.0.4",    
     "gulp-load-plugins": "",
@@ -40,6 +40,7 @@
     "gulp-uglify": "^3.0.0", 
     "gulp-uglifycss": "",
     "gulp-util": "",
-    "jshint-stylish": ""       
+    "jshint-stylish": "",
+    "jshint": ""      
   }
 }
