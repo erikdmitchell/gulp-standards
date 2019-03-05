@@ -1,6 +1,6 @@
 # Gulp Standards
 
-Version: 0.1.0
+Version: 0.2.0
 
 ## Standards
 
@@ -22,7 +22,9 @@ Version: 0.1.0
 
 `scripts` - min all js files
 
-`lintjs` - s linting with JSHint
+`lintjs` - linting with JSHint
+
+`scriptscombine` - combine scripts into a single file
 
 ### Styles
 
