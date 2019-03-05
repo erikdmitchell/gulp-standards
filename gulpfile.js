@@ -205,16 +205,17 @@ gulp.task('phpcbf', function () {
 });
 
 // ==== TASKS ==== //
-/**
- * Gulp Default Task
- *
- * Compiles styles, watches js and php files.
- *
- */
 
-// Package Distributable - sort of
+// gulp zip
+gulp.task('zip', function () {
+  return gulp.src(buildInclude)
+    .pipe(zip('gulp-standards.zip'))
+    .pipe(gulp.dest('./../'));
+});  
+
+// Package Distributable
 gulp.task('build', function (cb) {
-    runSequence('styles', 'scripts', cb);
+    runSequence('styles', 'scripts', 'zip', cb);
 });
 
 // Styles task
