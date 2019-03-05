@@ -158,23 +158,22 @@ gulp.task('lintjs', function() {
     .pipe(jshint.reporter(stylish));
 });
 
-/*
-gulp.task('scripts', function () {
-    return gulp.src('./js/*.js')
-        .pipe(concat('custom.js'))
-        .pipe(gulp.dest('./assets/js'))
+// combine scripts into one file and min it.
+gulp.task('scriptscombine', function () {
+    return gulp.src(jsInclude)
+        .pipe(concat('scripts.js'))
+        .pipe(gulp.dest('./inc/js'))
         .pipe(rename({
-            basename: "custom",
+            basename: "scripts",
             suffix: '.min'
         }))
         .pipe(uglify())
-        .pipe(gulp.dest('./assets/js/'))
+        .pipe(gulp.dest('./inc/js/'))
         .pipe(notify({
-            message: 'Custom scripts task complete',
+            message: 'Scripts combined',
             onLast: true
         }));
 });
-*/
 
 /**
  * PHP
