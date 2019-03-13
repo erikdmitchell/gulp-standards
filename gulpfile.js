@@ -1,21 +1,20 @@
 // Project configuration
 var buildInclude = [
         // include common file types
-        '**/*.php',
-        '**/*.html',
-        '**/*.css',
-        '**/*.js',
-        '**/*.svg',
-        '**/*.ttf',
-        '**/*.otf',
-        '**/*.eot',
-        '**/*.woff',
-        '**/*.woff2',
+        //'**/*.php',
+        //'**/*.html',
+        //'**/*.css',
+        //'**/*.js',
+        //'**/*.svg',
+        //'**/*.ttf',
+        //'**/*.otf',
+        //'**/*.eot',
+        //'**/*.woff',
+        //'**/*.woff2',
 
         // include specific files and folders
         'screenshot.png',
 
-        // exclude files and folders
         // exclude files and folders
         '!./composer.json', 
         '!./composer.lock',
