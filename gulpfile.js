@@ -140,7 +140,14 @@ gulp.task('lintcss', function lintCssTask() {
         {formatter: 'string', console: true}
       ]
     }));
-});	
+});
+
+// make pretty
+gulp.task('beautifycss', () =>
+    gulp.src(cssInclude)
+        .pipe(beautify())
+        .pipe(gulp.dest('./'))
+);	
 
 /**
  * Scripts
@@ -179,6 +186,13 @@ gulp.task('scriptscombine', function () {
             onLast: true
         }));
 });
+
+// make pretty
+gulp.task('beautifyjs', () =>
+    gulp.src(jsInclude)
+        .pipe(beautify())
+        .pipe(gulp.dest('./'))
+);
 
 /**
  * PHP

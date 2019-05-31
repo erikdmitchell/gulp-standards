@@ -1,6 +1,6 @@
 # Gulp Standards
 
-Version: 0.3.0
+Version: 0.4.0
 
 ## Standards
 
@@ -26,6 +26,8 @@ Version: 0.3.0
 
 `scriptscombine` - combine scripts into a single file
 
+`beautifyjs` - js beautify
+
 ### Styles
 
 `sass` - compile sass
@@ -33,6 +35,8 @@ Version: 0.3.0
 `mincss` - minify all css
 
 `lintcss` - css linting with Stylelint
+
+`beautifycss` - css beautify
 
 ### Tasks
 
