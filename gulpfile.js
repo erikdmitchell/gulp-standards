@@ -12,10 +12,10 @@ var buildInclude = [
         '**/*.woff',
         '**/*.woff2',
         '**/*.png',
-        '**/*.txt',
         
         // include specific files and folders
         'screenshot.png',
+        'readme.txt',
 
         // exclude files and folders
         '!./composer.json', 
