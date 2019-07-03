@@ -13,7 +13,6 @@
 	"undef": true,
 	"unused": true,
 	"multistr": true,
-	"validsthis": true, // Tolerate using this in a non-constructor 
 
 	"browser": true,
 
