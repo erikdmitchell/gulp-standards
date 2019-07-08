@@ -69,7 +69,7 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     concat = require('gulp-concat'),
     notify = require('gulp-notify'),
-    runSequence = require('gulp-run-sequence'),
+    runSequence = require('run-sequence'),
     sass = require('gulp-sass'),
     plugins = require('gulp-load-plugins')({
         camelize: true
